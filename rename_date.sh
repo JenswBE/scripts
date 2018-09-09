@@ -1,8 +1,14 @@
 #!/bin/bash
 
+# Author: Jens Willemsens <jens@jensw.be>
+# License: MIT
+#
+# === Purpose ===
+# Renames media files accordingly to the EXIF or modification date
+
 # Settings
-PREFIX="Pont "
-APPENDIX=""
+PREFIX="${1}"
+APPENDIX="${2}"
 OTHER_EXT=( "png" "mp4" )
 
 # Rename JPEG accordingly to EXIF
