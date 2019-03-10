@@ -31,6 +31,10 @@ The output file contains only the totals for each Business Partner.
 ### SAP: unconverted-to-csv
 This program generates a CSV file from "Save to local file - Unconverted".
 
+### SAP: bootstrapHANA
+Bootstraps a VPS or server with HANA express on docker.
+*Warning*: To be executed as root, a new user will be created and root will be disabled. Also ufw will be enabled.
+
 ## Powershell
 
 ### KillHandle
