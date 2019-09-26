@@ -1,5 +1,5 @@
-# scripts
-Some usefull bash scripts
+# Scripts
+Some usefull Bash and Powershell scripts
 
 ## Bash
 
@@ -23,6 +23,14 @@ For each top directory: Tar contents, compresses with BZIP2 and encrypts with AE
 #### Dependencies
 - gpg
 - parallel
+
+### git_pull_subdirs
+Running in a directory, will execute `git pull` in each subdirectory.
+
+**Big thanks to following authors in the [StackOverflow questions](https://stackoverflow.com/questions/3497123/run-git-pull-over-all-subdirectories):**
+- [Petah](https://stackoverflow.com/users/268074/petah)
+- [leo](https://stackoverflow.com/users/1658147/leo)
+- [Zarat](https://stackoverflow.com/users/578323/zarat)
 
 ### SAP: fpo1-to-csv
 This program generates a CSV file from a dump of transaction FPO1 in SAP.
