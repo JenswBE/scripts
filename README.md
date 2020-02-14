@@ -3,6 +3,14 @@ Some usefull Bash and Powershell scripts
 
 ## Bash
 
+### extract-audio-dl
+Downloads video with youtube-dl and extracts audio into Ogg Opus format
+
+#### Dependencies
+- youtube-dl
+- ffmpeg / avconv
+
+
 ### gpg-enc
 Small helper to encrypt a file to <filename>.gpg using AES256. Passphrase is asked at execution.
 
