@@ -8,4 +8,6 @@
 
 # -i: Ignore errors
 # -x: Extract audio
-youtube-dl -i -x --audio-format opus $@
+# -f bestaudio: Download format with best audio
+# --audio-quality 0: Convert to best audio quality
+youtube-dl -i -x -f bestaudio --audio-format opus --audio-quality 0 $@
