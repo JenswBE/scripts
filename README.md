@@ -1,3 +1,5 @@
+# :warning: Archived this repo in favor of https://github.com/JenswBE/setup/tree/main/scripts
+
 # Scripts
 Some usefull Bash and Powershell scripts
 
